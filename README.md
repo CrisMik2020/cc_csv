@@ -34,3 +34,24 @@ from csv_utils import get_header_csv
 
 header = get_header_csv("example.csv")
 print(header)
+```
+
+## Usage
+### 1. `keep_specified_columns`
+The `keep_specified_columns` function is part of the CSV File Editing Operations project. This function creates a new CSV file with only the specified columns from the original CSV file. It is particularly useful when you need to extract specific data columns from a large dataset or perform data filtering operations.
+
+## Usage
+### Arguments
+- `original_file`: Path to the original CSV file.
+- `new_file`: Path to the new CSV file to be created.
+- `list_columns`: List of strings representing the columns to keep.
+- `encoding` (optional): Encoding of the CSV files. Default is "utf-8".
+- `delimiter` (optional): Delimiter used in the CSV files. Default is ",".
+
+### Example
+```python
+from csv_utils import keep_specified_columns
+
+# Keep only "Name" and "Age" columns from the original.csv file
+keep_specified_columns("original.csv", "new.csv", ["Name", "Age"])
+```
