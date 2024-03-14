@@ -12,7 +12,7 @@ This repository contains Python functions for editing CSV files. The provided fu
 ## Installation
 1. Clone this repository to your local machine:
     ```
-    git clone https://github.com/your-username/csv-file-editing.git
+    git clone https://github.com/CrisMik2020/cc_csv
     ```
 2. Navigate to the project directory:
     ```
